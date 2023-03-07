@@ -1,11 +1,14 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from '@reduxjs/toolkit'
 
-import GetCondition from "./factures/CrudCondition";
+//*Slices
+import crudBlog from './features/crudCondition'
 
-export const store = configureStore ({
-    reducer:{
-       GetCondition:GetCondition
-    }
+
+export const store = configureStore({
+	reducer: {
+		FuctioncrudCondition :crudBlog,
+		
+	}
 })
 
 export type RootState = ReturnType<typeof store.getState>

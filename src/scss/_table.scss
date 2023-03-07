@@ -1,3 +1,18 @@
 th{
     background-color: blue;
+    text-align: center;
+}
+
+.lluvia{
+    display: none;
+
+    &--active{
+        display: block;
+    }
+}
+
+a{
+    background-color: none;
+    border: none;
+    cursor: pointer;
 }
