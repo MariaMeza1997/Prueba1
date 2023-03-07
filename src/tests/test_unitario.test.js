@@ -1,3 +1,4 @@
+
 //*TEST
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
@@ -14,7 +15,10 @@ import Index from '../pages/index'
 const mockStore = configureStore()
 const store = mockStore({})
 
-beforeEach(() => render(<Provider store={store}> <Index /> </Provider>))
+beforeEach(() => {
+	render(<Provider store={store}> <Index /> </Provider>)
+	})
+	
 
 
 describe('Index', () => {
