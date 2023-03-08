@@ -22,24 +22,67 @@ function Information() {
 
   return (
     <div className="information">
-      <h2>Detalles de información</h2>
 
-      <div className='information__information'>
-      <h1>Id</h1>
-      <p>{state.oneCondition.results[0]._id} </p>
+      <div className='container'>
+
+        <h2>Detalles de información</h2>
+
+          <div className='information__information'>
+            <h1>Id</h1>
+            <p>{state.oneCondition.results[0]._id} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>cityid</h1>
+            <p>{state.oneCondition.results[0].cityid} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>probabilityofprecip</h1>
+            <p>{state.oneCondition.results[0].probabilityofprecip} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>relativehumidity</h1>
+            <p>{state.oneCondition.results[0].relativehumidity} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>state</h1>
+            <p>{state.oneCondition.results[0].state} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>Name</h1>
+            <p>{state.oneCondition.results[0].name} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>validdateutc</h1>
+            <p>{state.oneCondition.results[0].validdateut} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>winddirectioncardina</h1>
+            <p>{state.oneCondition.results[0].winddirectioncardinal} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>date-insert</h1>
+            <p>{state.oneCondition.results[0]['date-insert']} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>longitude</h1>
+            <p>{state.oneCondition.results[0].longitude} </p>
+          </div>
+
+          <div className='information__information'>
+            <h1>skydescriptionlong</h1>
+            <p>{state.oneCondition.results[0].skydescriptionlong} </p>
+          </div>
+
       </div>
-
-      <div className='information__information'>
-      <h1>Name</h1>
-      <p>{state.oneCondition.results[0].name} </p>
-      </div>
-
-      <div className='information__information'>
-      <h1>Name</h1>
-      <p>{state.oneCondition.results[0].name} </p>
-      </div>
-      
-
 
     </div>
   )

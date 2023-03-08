@@ -1,18 +1,39 @@
-th{
-    background-color: blue;
-    text-align: center;
-}
+.table{
+    width: 100%;
+    height: 100%;
+    @include flex-center-center;
+    flex-direction: column;
 
-.lluvia{
-    display: none;
+    &__table{
+        margin-top: 30px;
+        th{
+            background-color: #37569C;
+            border: 1px solid #37569C;
+        }
 
-    &--active{
-        display: block;
+        table{
+            text-align: center;
+            border: 1px solid #37569C;
+        }
+        th, tr,td{
+            border: 1px solid #37569C;
+            padding: 15px;
+            text-align: center;
+        }
     }
-}
 
-a{
-    background-color: none;
-    border: none;
-    cursor: pointer;
+    .container{
+        @include flex-center-center;
+        flex-direction: column;
+    }
+
+    &__lluvia{
+        display: none;
+    
+        &--active{
+            display: block;
+        }
+    }
+    
+    
 }

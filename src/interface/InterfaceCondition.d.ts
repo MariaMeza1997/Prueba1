@@ -6,7 +6,11 @@ interface result{
     probabilityofprecip:number,
     relativehumidity:number,
     lastreporttime:number,
-    'date-insert':any
+    'date-insert':any,
+    validdateut:string,
+    winddirectioncardinal:string
+    longitude:string
+    skydescriptionlong:string
 }
 interface condition{
     pagination:{}

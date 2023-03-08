@@ -1,5 +1,10 @@
-//*Table
+//*Container
+@import 'global/container';
 
+//*mixins
+@import 'mixins/flex';
+
+//*Table
 @import 'table';
 @import 'information';
 
@@ -8,3 +13,10 @@
     margin: 0;
 }
 
+a{
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

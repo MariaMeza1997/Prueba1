@@ -11,7 +11,11 @@ export const initialState : crudCondution ={
         probabilityofprecip:0,
         relativehumidity:0,
         lastreporttime:0,
-        'date-insert':''
+        'date-insert':'',
+        validdateut:'',
+        winddirectioncardinal:'',
+        longitude:'',
+        skydescriptionlong:''
     },
        
     ]
@@ -28,7 +32,11 @@ export const initialState : crudCondution ={
         probabilityofprecip:0,
         relativehumidity:0,
         lastreporttime:0,
-        'date-insert':''
+        'date-insert':'',
+        validdateut:'',
+        winddirectioncardinal:'',
+        longitude:'',
+        skydescriptionlong:''
     },
        
     ]
