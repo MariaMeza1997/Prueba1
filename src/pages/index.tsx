@@ -32,7 +32,7 @@ function App() {
         <tbody>
 
           {
-            state.condition.results.slice().map((condition, index)=>(  
+            state?.condition.results.slice(0,10).map((condition, index)=>(  
                 
             <tr key={index}>
               <td><a data-testid="individualLink" href={`/information/${condition._id}`} >{condition._id}</a></td>
